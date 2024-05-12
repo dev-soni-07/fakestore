@@ -1,0 +1,21 @@
+.footer-container {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: var(--Blue-Page-Color);
+    color: #FCFCFC;
+    width: auto;
+    height: 100px;
+    padding: 0 40px;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}

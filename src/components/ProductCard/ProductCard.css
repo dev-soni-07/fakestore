@@ -1,0 +1,82 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 264px;
+  height: 360px;
+  justify-self: center;
+  margin: 20px;
+  font-family: var(--Font);
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.product-info p:nth-child(1),
+.product-info p:nth-child(3) {
+  font-size: 14px;
+  color: #282828;
+  font-weight: 700;
+  padding: 5px 15px;
+}
+
+.product-info p:nth-child(2) {
+  font-weight: 400;
+  padding: 5px 15px;
+  font-size: 12px;
+  color: #949494;
+}
+
+.product-card img {
+  max-height: 178px;
+  max-width: 178px;
+  object-fit: contain;
+  margin: 35px 15px;
+  mix-blend-mode: multiply;
+}
+
+.img-box {
+  border-radius: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 220px;
+  height: 240px;
+  position: relative;
+}
+
+.img-box img {
+  transition: transform 0.5s ease;
+}
+
+.img-box img:hover {
+  transform: scale(1.2);
+}
+
+.img-box img:hover:not(:hover) {
+  transition: transform 1s ease;
+  transform: scale(1);
+}
+
+.heart-icon {
+  color: #E7E7E7;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+}
+
+.filled{
+  color: red;
+}

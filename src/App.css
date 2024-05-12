@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+:root {
+  --Page-Color: #FAFAFA;
+  --Blue-Page-Color: #3A4895;
+  --Black-Text: #000000;
+  --Grey-Text: #949494;
+  --Font: 'Poppins', sans-serif;
+}
+
+.App {
+  background-color: var(--Page-Color);
+  color: var(--Black-Text);
+  min-height: 100vh;
+  font-family: var(--Font);
+}
